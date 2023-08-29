@@ -1,0 +1,39 @@
+*;
+*::before,
+*::after{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: steelblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.box,
+.box2{
+    width: 500px;
+    height: 1000px;
+    background-color: red;
+    border: 5px solid black;
+
+}
+
+@media (max-width: 1500px){
+    .box2{
+        background-color: blue;
+    }
+}
+
+@media (max-width: 1400px){
+    .box2{
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 1200px){
+    .box2{
+        background-color: green;
+    }
+}
